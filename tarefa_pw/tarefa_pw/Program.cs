@@ -10,6 +10,20 @@ namespace tarefa_pw
     {
         static void Main(string[] args)
         {
+            Cliente c1 = new Cliente(1, "Maria", "9999999998");
+            Cliente c2 = new Cliente(2, "José", "89899989998");
+            Cliente c3 = new Cliente(3, "Julia", "5888788888");
+            Cliente c4 = new Cliente(4, "Diogo", "2699898992");
+
+            Console.WriteLine("\n---------------------------");
+            List<Cliente> listaCliente = new List<Cliente>();
+            listaCliente.Add(c1);
+            listaCliente.Add(c2);
+            listaCliente.Add(c3);
+            listaCliente.Add(c4);
+
+            
+
 
         }
     }
