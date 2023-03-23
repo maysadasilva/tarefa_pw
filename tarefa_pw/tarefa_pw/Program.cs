@@ -29,10 +29,11 @@ namespace tarefa_pw
             }
 
             Console.WriteLine("\n---------------------------");
-            /*
+            
             List<Produto> listaProduto = new List<Produto>();
 
             //560
+            /*
             for(int i=0;i<=3;i++)
             {
                 Produto p = new Produto(i, i * 3 + 3, "xxxxxxxxxxxxxx");
@@ -40,6 +41,8 @@ namespace tarefa_pw
                 Console.WriteLine("Id: " + p.getId() + ", Preço do produto:  " + p.getValor() + ", Descrição do Produto: " + p.getDescricao());
 
             }*/
+
+            Console.WriteLine("\n---------------------------");
 
 
 
