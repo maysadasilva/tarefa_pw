@@ -22,9 +22,12 @@ namespace tarefa_pw
             listaCliente.Add(c3);
             listaCliente.Add(c4);
 
-            
+            for(int i=0;i<listaCliente.Count;i++)
+            {
+                Console.WriteLine(listaCliente[i].DadosdoCliente());
+            }
 
-
+            Console.ReadKey();
         }
     }
 }

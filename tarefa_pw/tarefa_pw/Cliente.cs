@@ -12,7 +12,10 @@ namespace tarefa_pw
         private string Nome;
         private string Telefone;
        
-
+        public string DadosdoCliente()
+        {
+            return "Id" + "Nome" + "Telefone";
+        }
         public Cliente(int id, string nome, string telefone) 
         {
             Id = id;
