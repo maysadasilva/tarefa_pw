@@ -8,5 +8,13 @@ namespace tarefa_pw
 {
     public class Veiculo
     {
+        public int numerodeAssentos;
+        public string modelo;
+        
+        public string ExibirdadosVeiculo()
+        {
+            return "Número de assentos: " + numerodeAssentos + ", Modelo do veículo: " + modelo;
+        }
+
     }
 }

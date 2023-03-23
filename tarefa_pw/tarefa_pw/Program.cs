@@ -32,21 +32,27 @@ namespace tarefa_pw
             
             List<Produto> listaProduto = new List<Produto>();
 
-            //560
-            /*
-            for(int i=0;i<=3;i++)
+            
+            
+            for(int i=0;i<=560;i++)
             {
                 Produto p = new Produto(i, i * 3 + 3, "xxxxxxxxxxxxxx");
                 listaProduto.Add(p);
                 Console.WriteLine("Id: " + p.getId() + ", Preço do produto:  " + p.getValor() + ", Descrição do Produto: " + p.getDescricao());
 
-            }*/
+            }
 
             Console.WriteLine("\n---------------------------");
 
+            List<Veiculo> listaVeiculo = new List<Veiculo>();
+            listaVeiculo.Add(new Veiculo());
+            listaVeiculo.Add(new Veiculo());
 
-
-
+            foreach(var item in listaVeiculo)
+            {
+                Console.WriteLine(item.ExibirdadosVeiculo());
+            }
+            
             Console.ReadKey();
         }
     }
