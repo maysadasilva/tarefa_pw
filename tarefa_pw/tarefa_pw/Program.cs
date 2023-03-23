@@ -27,7 +27,18 @@ namespace tarefa_pw
                 Console.WriteLine(listaCliente[i].DadosdoCliente());
             }
 
+            Console.WriteLine("\n---------------------------");
 
+            List<Produto> listaProduto = new List<Produto>();
+
+            //560
+            for(int i=0;i<=3;i++)
+            {
+                Produto p = new Produto(i, i * 3 + 3, "----------------");
+                listaProduto.Add(p);
+                Console.WriteLine("Id: " + p.getId() + ", Preço do produto:  " + p.getValor() + ", Descrição do Produto: " + p.getDescricao());
+
+            }
 
 
             Console.ReadKey();
