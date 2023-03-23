@@ -11,20 +11,44 @@ namespace tarefa_pw
         private int Id;
         private string Nome;
         private string Telefone;
-        //private Endereco Endereco;
+       
 
-        public Cliente(int id, string nome, string telefone) //Endereco endereco
+        public Cliente(int id, string nome, string telefone) 
         {
-            
-
+            Id = id;
+            Nome = nome;
+            Telefone = telefone;
         }
 
+        public void SelId(int id)
+        {
+            Id = id;
+        }
 
+        public void SetNome(string nome)
+        {
+            Nome = nome;
+        }
 
+        public void SetTelefone(string telefone)
+        {
+            Telefone = telefone;
+        }
 
+        public int getId()
+        {
+            return Id;
+        }
 
+        public string getNome()
+        {
+            return Nome;
+        }
 
-
+        public string getTelefone()
+        {
+            return Telefone;
+        }
 
     }
 }
