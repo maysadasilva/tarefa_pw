@@ -27,6 +27,9 @@ namespace tarefa_pw
                 Console.WriteLine(listaCliente[i].DadosdoCliente());
             }
 
+
+
+
             Console.ReadKey();
         }
     }
