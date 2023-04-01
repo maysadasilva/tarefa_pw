@@ -33,7 +33,7 @@ namespace tarefa_pw
             List<Produto> listaProduto = new List<Produto>();
 
             
-            
+            /*
             for(int i=0;i<=560;i++)
             {
                 Produto p = new Produto(i, i * 3 + 3, "xxxxxxxxxxxxxx");
@@ -41,7 +41,7 @@ namespace tarefa_pw
                 Console.WriteLine("Id: " + p.getId() + ", Preço do produto:  " + p.getValor() + ", Descrição do Produto: " + p.getDescricao());
 
             }
-
+            */
             Console.WriteLine("\n---------------------------");
 
             List<Veiculo> listaVeiculo = new List<Veiculo>();
