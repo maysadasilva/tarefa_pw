@@ -30,18 +30,25 @@ namespace tarefa_pw
 
             Console.WriteLine("\n---------------------------");
             
-            List<Produto> listaProduto = new List<Produto>();
-
-            
-            /*
-            for(int i=0;i<=560;i++)
+            List<Produto> listaProduto2 = new List<Produto>();
+            for(int i=0;i<=3;i++)
             {
-                Produto p = new Produto(i, i * 3 + 3, "xxxxxxxxxxxxxx");
+                Produto p2 = new Produto(i, i * 3 + 3, "xxxxxxxxxxxxxx");
+                listaProduto2.Add(p2);
+                //Console.WriteLine("Id: " + p.getId() + ", Preço do produto:  " + p.getValor() + ", Descrição do Produto: " + p.getDescricao());
+
+            }
+
+            /*
+            List<Produto> listaProduto = new List<Produto>();
+            for (int i = 0; i <= 560; i++)
+            {
+                Produto p2 = new Produto(i, i * 3 + 3, "xxxxxxxxxxxxxx");
                 listaProduto.Add(p);
                 Console.WriteLine("Id: " + p.getId() + ", Preço do produto:  " + p.getValor() + ", Descrição do Produto: " + p.getDescricao());
 
-            }
-            */
+            }*/
+
             Console.WriteLine("\n---------------------------");
 
             List<Veiculo> listaVeiculo = new List<Veiculo>();
@@ -54,16 +61,22 @@ namespace tarefa_pw
             }
 
             List<Vendas> listaVendas = new List<Vendas>();
-            
 
-            foreach (var item in listaVendas)
+            Vendas v1 = new Vendas(1, "01/04//2023");
+
+            Console.WriteLine("\nLista de Produtos que foram comprados por um cliente: ");
+
+            for(int i = 0; i < listaProduto2.Count;i++)
             {
-              
-                
-                Console.WriteLine(item.ExibirListaProdutos());
+                Console.WriteLine(listaProduto2[i].DadosProduto());
 
             }
 
+            listaVendas.Add(v1);
+            {
+                Console.WriteLine("Id da venda: " + v1.getDatadaVenda() + ", Data da venda do produto: " + v1.getDatadaVenda());
+;            }
+            
 
             Console.ReadKey();
         }

@@ -49,6 +49,9 @@ namespace tarefa_pw
             return Descricao;
         }
 
-
+        public string DadosProduto()
+        {
+            return ("Id: " + Id + ", Valor:" + Valor + ", Descrição :" + Descricao);
+        }
     }
 }
