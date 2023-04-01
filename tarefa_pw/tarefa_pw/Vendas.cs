@@ -8,52 +8,24 @@ namespace tarefa_pw
 {
     public class Vendas
     {
-        private int Id;
-        private string Produto;
-        private int Data;
+        private int IDVenda;
+        private string DatadaVenda;
 
-        public string ListaProdutos()
+        public Vendas(int idvenda, string datadavenda)
         {
-            return "Id da venda: " + Id + ", Produto: " + Produto + ", Data da Venda: " + Data;
+            IDVenda = idvenda;
+            DatadaVenda = datadavenda;
         }
 
-        public Vendas(int id, string produto, int data)
+        public int getIDVenda()
         {
-            Id = id;
-            Produto = produto;
-            Data = data;
+            return IDVenda;
         }
 
-        public void SetId(int id)
+        public string getDatadaVenda()
         {
-            Id = id;
+            return DatadaVenda;
         }
-
-        public void SetProduto(string produto)
-        {
-            Produto = produto;
-        }
-
-        public void SetData(int data)
-        {
-            Data = data;
-        }
-
-        public int getId()
-        {
-            return Id;
-        }
-
-        public string getProduto()
-        {
-            return Produto;
-        }
-
-        public int getData()
-        {
-            return Data;
-        }
-
 
     }
 }

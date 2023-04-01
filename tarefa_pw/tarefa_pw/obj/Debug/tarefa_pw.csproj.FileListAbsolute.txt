@@ -5,3 +5,11 @@ C:\Users\MAYSA\source\repos\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.cs
 C:\Users\MAYSA\source\repos\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.csproj.CoreCompileInputs.cache
 C:\Users\MAYSA\source\repos\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.exe
 C:\Users\MAYSA\source\repos\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.pdb
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\bin\Debug\tarefa_pw.exe.config
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\bin\Debug\tarefa_pw.exe
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\bin\Debug\tarefa_pw.pdb
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.csproj.AssemblyReference.cache
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.csproj.SuggestedBindingRedirects.cache
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.csproj.CoreCompileInputs.cache
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.exe
+C:\Users\MAYSA\Source\Repos\maysadasilva\tarefa_pw\tarefa_pw\tarefa_pw\obj\Debug\tarefa_pw.pdb

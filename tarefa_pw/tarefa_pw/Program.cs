@@ -52,7 +52,19 @@ namespace tarefa_pw
             {
                 Console.WriteLine(item.ExibirdadosVeiculo());
             }
+
+            List<Vendas> listaVendas = new List<Vendas>();
             
+
+            foreach (var item in listaVendas)
+            {
+              
+                
+                Console.WriteLine(item.ExibirListaProdutos());
+
+            }
+
+
             Console.ReadKey();
         }
     }
